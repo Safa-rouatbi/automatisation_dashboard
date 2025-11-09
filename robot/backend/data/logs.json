@@ -1,0 +1,92 @@
+[
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-09 20:54:10"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-09 20:54:13"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-09 20:54:14"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-09 20:54:17"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-09 20:54:20"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-09 20:54:23"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-09 20:54:25"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-09 20:54:28"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-09 20:54:31"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-09 20:54:33"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-09 20:54:34"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-09 20:54:35"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-09 20:54:38"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-09 20:54:40"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-09 20:54:41"
+    }
+]

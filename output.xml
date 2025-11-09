@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.14.0 on win32)" generated="2025-11-09T14:17:30.623658" rpa="false" schemaversion="5">
+<suite id="s1" name="Runner" source="C:\Users\Client\Desktop\task_automation_robot\robot\runner.robot">
+<test id="s1-t1" name="Simuler Plusieurs Exécutions Réalistes" line="16">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>=== Début de la simulation réaliste ===</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-11-09T14:17:30.791415" elapsed="0.000402"/>
+</kw>
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-11-09T14:17:30.792359" level="INFO">${all_results} = []</msg>
+<var>${all_results}</var>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-11-09T14:17:30.792179" elapsed="0.000215"/>
+</kw>
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2025-11-09T14:17:30.793099" level="INFO" html="true">File '&lt;a href="file://C:\Users\Client\Desktop\task_automation_robot\backend\data\logs.json"&gt;C:\Users\Client\Desktop\task_automation_robot\backend\data\logs.json&lt;/a&gt;' exists.</msg>
+<arg>${LOG_FILE}</arg>
+<doc>Fails unless the given ``path`` points to an existing file.</doc>
+<status status="PASS" start="2025-11-09T14:17:30.792834" elapsed="0.000323"/>
+</kw>
+<msg time="2025-11-09T14:17:30.793240" level="INFO">${exists} = True</msg>
+<var>${exists}</var>
+<arg>File Should Exist</arg>
+<arg>${LOG_FILE}</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2025-11-09T14:17:30.792697" elapsed="0.000564"/>
+</kw>
+<if>
+<branch type="IF" condition="${exists}">
+<kw name="Load Json From File" owner="JSONLibrary">
+<msg time="2025-11-09T14:17:30.812966" level="INFO">${all_results} = [{'task': 'backup', 'duration': 1, 'success': True}, {'task': 'analyse', 'duration': 1, 'success': False}, {'task': 'upload', 'duration': 2, 'success': False}, {'task': 'backup', 'duration': 1, 'succe...</msg>
+<var>${all_results}</var>
+<arg>${LOG_FILE}</arg>
+<doc>Load JSON from file.</doc>
+<status status="PASS" start="2025-11-09T14:17:30.793675" elapsed="0.019340"/>
+</kw>
+<status status="PASS" start="2025-11-09T14:17:30.793527" elapsed="0.019540"/>
+</branch>
+<status status="PASS" start="2025-11-09T14:17:30.793495" elapsed="0.019606"/>
+</if>
+<for flavor="IN">
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>---- Simulation pour la tâche ${task} ----</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-11-09T14:17:30.813758" elapsed="0.000382"/>
+</kw>
+<for flavor="IN RANGE">
+<iter>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-11-09T14:17:30.815065" level="INFO">${duration} = 2</msg>
+<var>${duration}</var>
+<arg>random.randint(1, 3)</arg>
+<arg>modules=random</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-11-09T14:17:30.814727" elapsed="0.000373"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-11-09T14:17:32.815868" level="INFO">Slept 2 seconds.</msg>
+<arg>${duration}s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-11-09T14:17:30.815215" elapsed="2.000944"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-11-09T14:17:32.817542" level="INFO">${success} = True</msg>
+<var>${success}</var>
+<arg>random.choice([True, False])</arg>
+<arg>modules=random</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-11-09T14:17:32.816626" elapsed="0.001005"/>
+</kw>
+<kw name="Set Variable If" owner="BuiltIn">
+<msg time="2025-11-09T14:17:32.818405" level="INFO">${status} = réussi</msg>
+<var>${status}</var>
+<arg>${success}</arg>
+<arg>réussi</arg>
+<arg>échoué</arg>
+<doc>Sets variable based on the given condition.</doc>
+<status status="PASS" start="2025-11-09T14:17:32.818018" elapsed="0.000457"/>
+</kw>
+<kw name="Get Current Date" owner="DateTime">
+<msg time="2025-11-09T14:17:32.819227" level="INFO">${timestamp} = 2025-11-09 14:17:32</msg>
+<var>${timestamp}</var>
+<arg>result_format=%Y-%m-%d %H:%M:%S</arg>
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<status status="PASS" start="2025-11-09T14:17:32.818750" elapsed="0.000545"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2025-11-09T14:17:32.820605" level="INFO">${entry} = {'task': 'backup', 'duration': 2, 'success': True, 'timestamp': '2025-11-09 14:17:32'}</msg>
+<var>${entry}</var>
+<arg>task=${task}</arg>
+<arg>duration=${duration}</arg>
+<arg>success=${success}</arg>
+<arg>timestamp=${timestamp}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2025-11-09T14:17:32.819557" elapsed="0.001126"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${all_results}</arg>
+<arg>${entry}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-11-09T14:17:32.820958" elapsed="0.000361"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${task} #${i} : ${status} (${duration}s)</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-11-09T14:17:32.821565" elapsed="0.000986"/>
+</kw>
+<var name="${i}">0</var>
+<status status="PASS" start="2025-11-09T14:17:30.814521" elapsed="2.008183"/>
+</iter>
+<iter>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-11-09T14:17:32.823902" level="INFO">${duration} = 2</msg>
+<var>${duration}</var>
+<arg>random.randint(1, 3)</arg>
+<arg>modules=random</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-11-09T14:17:32.823324" elapsed="0.000644"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-11-09T14:17:34.824951" level="INFO">Slept 2 seconds.</msg>
+<arg>${duration}s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-11-09T14:17:32.824195" elapsed="2.001023"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-11-09T14:17:34.826513" level="INFO">${success} = False</msg>
+<var>${success}</var>
+<arg>random.choice([True, False])</arg>
+<arg>modules=random</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-11-09T14:17:34.825658" elapsed="0.000945"/>
+</kw>
+<kw name="Set Variable If" owner="BuiltIn">
+<msg time="2025-11-09T14:17:34.827336" level="INFO">${status} = échoué</msg>
+<var>${status}</var>
+<arg>${success}</arg>
+<arg>réussi</arg>
+<arg>échoué</arg>
+<doc>Sets variable based on the given condition.</doc>
+<status status="PASS" start="2025-11-09T14:17:34.826958" elapsed="0.000450"/>
+</kw>
+<kw name="Get Current Date" owner="DateTime">
+<msg time="2025-11-09T14:17:34.828159" level="INFO">${timestamp} = 2025-11-09 14:17:34</msg>
+<var>${timestamp}</var>
+<arg>result_format=%Y-%m-%d %H:%M:%S</arg>
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<status status="PASS" start="2025-11-09T14:17:34.827667" elapsed="0.000561"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2025-11-09T14:17:34.829301" level="INFO">${entry} = {'task': 'backup', 'duration': 2, 'success': False, 'timestamp': '2025-11-09 14:17:34'}</msg>
+<var>${entry}</var>
+<arg>task=${task}</arg>
+<arg>duration=${duration}</arg>
+<arg>success=${success}</arg>
+<arg>timestamp=${timestamp}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2025-11-09T14:17:34.828493" elapsed="0.000881"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${all_results}</arg>
+<arg>${entry}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-11-09T14:17:34.829627" elapsed="0.000371"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${task} #${i} : ${status} (${duration}s)</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-11-09T14:17:34.830242" elapsed="0.000620"/>
+</kw>
+<var name="${i}">1</var>
+<status status="PASS" start="2025-11-09T14:17:32.823093" elapsed="2.007866"/>
+</iter>
+<iter>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-11-09T14:17:34.831559" level="INFO">${duration} = 1</msg>
+<var>${duration}</var>
+<arg>random.randint(1, 3)</arg>
+<arg>modules=random</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-11-09T14:17:34.831270" elapsed="0.000321"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-11-09T14:17:35.832245" level="INFO">Slept 1 second.</msg>
+<arg>${duration}s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-11-09T14:17:34.831692" elapsed="1.000836"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-11-09T14:17:35.833811" level="INFO">${success} = False</msg>
+<var>${success}</var>
+<arg>random.choice([True, False])</arg>
+<arg>modules=random</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-11-09T14:17:35.832958" elapsed="0.000946"/>
+</kw>
+<kw name="Set Variable If" owner="BuiltIn">
+<msg time="2025-11-09T14:17:35.834944" level="INFO">${status} = échoué</msg>
+<var>${status}</var>
+<arg>${success}</arg>
+<arg>réussi</arg>
+<arg>échoué</arg>
+<doc>Sets variable based on the given condition.</doc>
+<status status="PASS" start="2025-11-09T14:17:35.834263" elapsed="0.000866"/>
+</kw>
+<kw name="Get Current Date" owner="DateTime">
+<msg time="2025-11-09T14:17:35.836937" level="INFO">${timestamp} = 2025-11-09 14:17:35</msg>
+<var>${timestamp}</var>
+<arg>result_format=%Y-%m-%d %H:%M:%S</arg>
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<status status="PASS" start="2025-11-09T14:17:35.835907" elapsed="0.001104"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2025-11-09T14:17:35.838400" level="INFO">${entry} = {'task': 'backup', 'duration': 1, 'success': False, 'timestamp': '2025-11-09 14:17:35'}</msg>
+<var>${entry}</var>
+<arg>task=${task}</arg>
+<arg>duration=${duration}</arg>
+<arg>success=${success}</arg>
+<arg>timestamp=${timestamp}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2025-11-09T14:17:35.837476" elapsed="0.000995"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${all_results}</arg>
+<arg>${entry}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-11-09T14:17:35.838732" elapsed="0.000297"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${task} #${i} : ${status} (${duration}s)</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-11-09T14:17:35.839213" elapsed="0.000754"/>
+</kw>
+<var name="${i}">2</var>
+<status status="PASS" start="2025-11-09T14:17:34.831143" elapsed="1.008939"/>
+</iter>
+<iter>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-11-09T14:17:35.841090" level="INFO">${duration} = 1</msg>
+<var>${duration}</var>
+<arg>random.randint(1, 3)</arg>
+<arg>modules=random</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-11-09T14:17:35.840667" elapsed="0.000472"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-11-09T14:17:36.841942" level="INFO">Slept 1 second.</msg>
+<arg>${duration}s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-11-09T14:17:35.841289" elapsed="1.000952"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-11-09T14:17:36.843488" level="INFO">${success} = True</msg>
+<var>${success}</var>
+<arg>random.choice([True, False])</arg>
+<arg>modules=random</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-11-09T14:17:36.842661" elapsed="0.000914"/>
+</kw>
+<kw name="Set Variable If" owner="BuiltIn">
+<msg time="2025-11-09T14:17:36.845015" level="INFO">${status} = réussi</msg>
+<var>${status}</var>
+<arg>${success}</arg>
+<arg>réussi</arg>
+<arg>échoué</arg>
+<doc>Sets variable based on the given condition.</doc>
+<status status="PASS" start="2025-11-09T14:17:36.843921" elapsed="0.001170"/>
+</kw>
+<kw name="Get Current Date" owner="DateTime">
+<msg time="2025-11-09T14:17:36.845777" level="INFO">${timestamp} = 2025-11-09 14:17:36</msg>
+<var>${timestamp}</var>
+<arg>result_format=%Y-%m-%d %H:%M:%S</arg>
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<status status="PASS" start="2025-11-09T14:17:36.845372" elapsed="0.000460"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2025-11-09T14:17:36.846632" level="INFO">${entry} = {'task': 'backup', 'duration': 1, 'success': True, 'timestamp': '2025-11-09 14:17:36'}</msg>
+<var>${entry}</var>
+<arg>task=${task}</arg>
+<arg>duration=${duration}</arg>
+<arg>success=${success}</arg>
+<arg>timestamp=${timestamp}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2025-11-09T14:17:36.846034" elapsed="0.000651"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${all_results}</arg>
+<arg>${entry}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-11-09T14:17:36.846890" elapsed="0.000266"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${task} #${i} : ${status} (${duration}s)</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-11-09T14:17:36.847336" elapsed="0.000864"/>
+</kw>
+<var name="${i}">3</var>
+<status status="PASS" start="2025-11-09T14:17:35.840473" elapsed="1.007891"/>
+</iter>
+<iter>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-11-09T14:17:36.849320" level="INFO">${duration} = 1</msg>
+<var>${duration}</var>
+<arg>random.randint(1, 3)</arg>
+<arg>modules=random</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-11-09T14:17:36.848919" elapsed="0.000445"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>${duration}s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="FAIL" start="2025-11-09T14:17:36.849505" elapsed="0.622340">Execution terminated by signal</status>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<var>${success}</var>
+<arg>random.choice([True, False])</arg>
+<arg>modules=random</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" start="2025-11-09T14:17:37.472366" elapsed="0.000061"/>
+</kw>
+<kw name="Set Variable If" owner="BuiltIn">
+<var>${status}</var>
+<arg>${success}</arg>
+<arg>réussi</arg>
+<arg>échoué</arg>
+<doc>Sets variable based on the given condition.</doc>
+<status status="NOT RUN" start="2025-11-09T14:17:37.472633" elapsed="0.000034"/>
+</kw>
+<kw name="Get Current Date" owner="DateTime">
+<var>${timestamp}</var>
+<arg>result_format=%Y-%m-%d %H:%M:%S</arg>
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<status status="NOT RUN" start="2025-11-09T14:17:37.472849" elapsed="0.000031"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<var>${entry}</var>
+<arg>task=${task}</arg>
+<arg>duration=${duration}</arg>
+<arg>success=${success}</arg>
+<arg>timestamp=${timestamp}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="NOT RUN" start="2025-11-09T14:17:37.473021" elapsed="0.000038"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${all_results}</arg>
+<arg>${entry}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="NOT RUN" start="2025-11-09T14:17:37.473214" elapsed="0.000028"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${task} #${i} : ${status} (${duration}s)</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-11-09T14:17:37.473366" elapsed="0.000027"/>
+</kw>
+<var name="${i}">4</var>
+<status status="FAIL" start="2025-11-09T14:17:36.848755" elapsed="0.624751">Execution terminated by signal</status>
+</iter>
+<var>${i}</var>
+<value>${ITERATIONS}</value>
+<status status="FAIL" start="2025-11-09T14:17:30.814238" elapsed="6.659421">Execution terminated by signal</status>
+</for>
+<var name="${task}">backup</var>
+<status status="FAIL" start="2025-11-09T14:17:30.813658" elapsed="6.660121">Execution terminated by signal</status>
+</iter>
+<var>${task}</var>
+<value>@{TASKS}</value>
+<status status="FAIL" start="2025-11-09T14:17:30.813388" elapsed="6.660466">Execution terminated by signal</status>
+</for>
+<kw name="Evaluate" owner="BuiltIn">
+<var>${json}</var>
+<arg>__import__('json').dumps(${all_results}, indent=4)</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" start="2025-11-09T14:17:37.474392" elapsed="0.000043"/>
+</kw>
+<kw name="Create File" owner="OperatingSystem">
+<arg>${LOG_FILE}</arg>
+<arg>${json}</arg>
+<doc>Creates a file with the given content and encoding.</doc>
+<status status="NOT RUN" start="2025-11-09T14:17:37.474867" elapsed="0.000027"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>=== Résultats enregistrés dans ${LOG_FILE} ===</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-11-09T14:17:37.475211" elapsed="0.000027"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>=== Fin de la simulation ===</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-11-09T14:17:37.475519" elapsed="0.000025"/>
+</kw>
+<status status="FAIL" start="2025-11-09T14:17:30.790388" elapsed="6.685836">Execution terminated by signal</status>
+</test>
+<doc>Robot pour simuler plusieurs exécutions réalistes de tâches automatiques</doc>
+<status status="FAIL" start="2025-11-09T14:17:30.625421" elapsed="6.852750"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Runner" id="s1" pass="0" fail="1" skip="0">Runner</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

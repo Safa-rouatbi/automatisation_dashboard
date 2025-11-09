@@ -1,0 +1,152 @@
+/* Logs Table - Tableau moderne et élégant */
+.logs-container {
+  margin-top: 30px;
+}
+
+.logs-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 16px 20px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.logs-header h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #212529;
+  margin: 0;
+}
+
+.logs-meta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 13px;
+  color: #6c757d;
+}
+
+.logs-meta .loading-indicator {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #ff6b35;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+.error-message {
+  padding: 16px;
+  background: #fff5f5;
+  border-left: 4px solid #dc3545;
+  border-radius: 8px;
+  color: #c53030;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.table-logs {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.table-logs thead {
+  background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+  color: white;
+}
+
+.table-logs th {
+  padding: 16px 20px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.table-logs tbody tr {
+  transition: background-color 0.2s ease;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.table-logs tbody tr:last-child {
+  border-bottom: none;
+}
+
+.table-logs tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.table-logs td {
+  padding: 16px 20px;
+  color: #495057;
+  font-size: 14px;
+}
+
+.table-logs td:first-child {
+  font-weight: 500;
+  color: #212529;
+}
+
+/* Badge de statut */
+.status-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.status-success {
+  background: #d4edda;
+  color: #155724;
+}
+
+.status-failure {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.empty-message {
+  text-align: center;
+  padding: 60px 20px;
+  color: #6c757d;
+  font-size: 16px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .logs-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logs-meta {
+    flex-wrap: wrap;
+  }
+
+  .table-logs {
+    font-size: 12px;
+  }
+
+  .table-logs th,
+  .table-logs td {
+    padding: 12px 10px;
+  }
+}
+

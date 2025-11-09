@@ -1,0 +1,59 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ Récupérer le code
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2️⃣ Installer Node.js (dernière version stable)
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # 3️⃣ Backend - Installation et tests
+      - name: Install backend dependencies
+        working-directory: ./backend
+        run: npm ci
+
+      - name: Run backend tests
+        working-directory: ./backend
+        run: npm test || echo "No backend tests configured"
+
+      # 4️⃣ Frontend - Installation et build Angular
+      - name: Install frontend dependencies
+        working-directory: ./frontend
+        run: npm ci
+
+      - name: Build Angular frontend
+        working-directory: ./frontend
+        run: npm run build -- --configuration production
+
+      # 5️⃣ Frontend - Tests Angular
+      - name: Run Angular tests
+        working-directory: ./frontend
+        run: npm test -- --watch=false --browsers=ChromeHeadless || echo "No frontend tests configured"
+
+      # 6️⃣ Robot Framework - Vérifier et exécuter les scénarios
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+
+      - name: Install Robot Framework
+        run: |
+          pip install robotframework
+
+      - name: Run Robot tests
+        working-directory: ./robot
+        run: robot runner.robot

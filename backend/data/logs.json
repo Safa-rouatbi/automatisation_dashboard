@@ -1,0 +1,3077 @@
+[
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": false
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": false
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 10:10:55"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 10:10:56"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 10:10:58"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 10:11:01"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 10:11:03"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 10:11:04"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 10:11:07"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 10:11:10"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 10:11:11"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 10:11:12"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 10:11:13"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 10:11:15"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 10:11:17"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 10:11:18"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 10:11:19"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:01:30"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:01:32"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:01:33"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:01:36"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:01:37"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:01:40"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:01:43"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:01:44"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:01:46"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:01:49"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:01:52"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:01:55"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:01:56"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:01:59"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:02:00"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:02:13"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:02:16"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:02:18"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:02:20"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:02:22"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:02:24"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:02:26"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:02:27"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:02:29"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:02:31"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:02:34"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:02:35"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:02:37"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:02:40"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:02:43"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:02:57"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:02:58"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:02:59"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:03:00"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:03:03"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:03:05"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:03:06"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:03:07"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:03:10"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:03:12"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:03:13"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:03:15"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:03:16"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:03:19"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:03:21"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:03:32"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:03:33"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:03:35"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:03:36"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:03:37"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:03:38"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:03:39"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:03:40"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:03:42"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:03:43"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:03:44"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:03:46"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:03:48"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:03:51"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:03:52"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:04:06"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:04:07"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:04:10"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:04:12"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:04:13"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:04:16"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:04:18"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:04:19"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:04:22"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:04:24"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:04:25"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:04:26"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:04:29"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:04:32"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:04:35"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:04:48"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:04:51"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:04:54"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:04:56"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:04:59"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:05:02"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:05:04"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:05:05"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:05:08"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:05:11"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:05:14"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:05:15"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:05:16"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:05:18"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:05:20"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:05:31"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:05:32"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:05:35"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:05:37"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:05:40"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:05:41"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:05:44"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:05:47"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:05:48"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:05:51"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:05:53"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:05:54"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:05:57"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:05:59"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:06:01"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:06:14"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:06:15"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:06:18"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:06:19"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:06:22"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:06:25"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:06:26"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:06:28"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:06:31"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:06:33"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:06:35"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:06:37"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:06:39"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:06:41"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:06:44"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:06:58"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:06:59"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:07:02"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:07:04"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:07:05"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:07:08"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:07:09"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:07:12"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:07:14"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:07:15"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:07:17"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:07:18"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:07:19"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:07:22"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:07:25"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:07:39"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:07:41"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:07:44"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:07:47"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:07:49"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:07:50"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:07:52"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:07:53"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:07:54"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:07:57"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:08:00"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:08:02"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:08:06"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:08:09"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:08:12"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:08:25"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:08:28"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:08:31"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:08:32"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:08:34"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:08:37"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:08:38"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:08:39"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:08:41"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:08:43"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:08:45"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:08:46"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:08:48"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:08:51"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:08:54"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:09:08"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:09:11"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:09:12"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:09:13"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:09:14"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:09:16"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:09:18"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:09:19"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:09:22"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:09:25"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:09:28"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:09:30"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:09:33"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:09:36"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:09:38"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:09:52"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:09:55"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:09:58"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:10:00"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:10:01"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:10:03"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:10:06"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:10:08"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:10:09"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:10:12"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:10:14"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:10:17"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:10:18"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:10:19"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:10:22"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:10:34"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:10:37"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:10:38"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:10:41"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:10:43"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:10:46"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:10:49"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:10:51"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:10:54"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:10:57"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:10:58"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:11:01"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:11:03"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:11:04"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:11:07"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:11:21"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:11:24"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:11:26"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:11:27"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:11:28"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:11:29"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:11:31"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:11:32"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:11:34"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:11:35"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:11:36"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:11:37"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:11:40"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:11:43"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:11:44"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:11:57"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:11:59"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:12:00"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:12:03"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:12:05"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:12:06"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:12:09"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:12:10"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:12:12"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:12:15"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:12:18"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:12:20"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:12:22"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:12:25"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:12:28"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:12:40"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:12:43"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:12:45"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:12:46"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:12:48"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:12:50"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:12:52"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:12:55"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:12:57"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:13:00"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:13:02"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:13:04"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:13:06"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:13:07"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:13:10"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:13:23"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:13:26"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:13:27"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:13:28"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:13:31"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:13:32"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:13:35"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:13:38"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:13:40"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:13:43"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:13:45"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:13:47"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:13:49"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:13:52"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:13:54"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:14:06"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:14:08"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:14:09"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:14:11"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:14:14"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:14:15"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:14:16"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:14:17"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:14:18"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:14:20"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:14:21"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:14:24"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:14:26"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:14:29"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:14:30"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:14:41"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:14:42"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:14:43"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:14:44"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:14:46"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:14:49"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:14:50"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:14:51"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:14:54"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:14:55"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:14:56"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:14:57"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:15:00"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:15:03"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:15:06"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:15:19"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:15:22"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:15:25"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:15:26"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:15:27"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:15:29"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:15:31"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:15:34"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:15:35"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:15:38"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:15:41"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:15:43"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:15:44"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:15:47"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:15:48"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:16:01"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:16:04"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:16:05"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:16:08"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:16:11"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:16:14"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:16:15"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:16:18"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:16:20"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:16:21"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:16:24"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:16:25"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:16:26"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:16:29"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:16:31"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:16:45"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:16:46"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:16:47"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:16:48"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:16:51"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:16:53"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:16:54"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:16:55"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:16:58"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:17:00"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:17:01"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:17:03"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:17:04"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:17:06"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:17:07"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:17:20"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:17:21"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:17:23"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:17:24"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:17:26"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:17:29"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:17:30"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:17:31"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:17:32"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:17:33"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:17:34"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:17:35"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:17:36"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:17:37"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:17:38"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:17:51"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:17:53"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:17:55"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:17:57"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 17:17:58"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:18:00"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:18:03"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:18:06"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:18:09"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:18:12"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 17:18:14"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 17:18:15"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 17:18:18"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 17:18:20"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 17:18:23"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 23:15:19"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 23:15:20"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 23:15:22"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 23:15:23"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 23:15:25"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 23:15:28"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 23:15:30"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 23:15:33"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 23:15:36"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 23:15:39"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 23:15:40"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 23:15:43"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 23:15:46"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 23:15:47"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 23:15:49"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 23:16:02"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 23:16:06"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 23:16:09"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 23:16:10"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 23:16:12"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 23:16:14"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 23:16:15"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 23:16:17"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 23:16:19"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 23:16:20"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 23:16:22"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 23:16:25"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 23:16:28"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 23:16:31"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 23:16:33"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 23:16:44"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 23:16:45"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-06 23:16:46"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 23:16:49"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-06 23:16:51"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 23:16:53"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 23:16:54"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 23:16:57"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 23:16:59"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 23:17:02"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-06 23:17:04"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 23:17:07"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-06 23:17:09"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-06 23:17:12"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-06 23:17:15"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-09 14:09:53"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-09 14:09:54"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-09 14:09:55"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-09 14:09:57"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-09 14:09:58"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-09 14:10:01"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-09 14:10:04"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-09 14:10:06"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-09 14:10:08"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-09 14:10:10"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-09 14:10:12"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-09 14:10:13"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-09 14:10:14"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-09 14:10:17"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-09 14:10:19"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-09 14:10:59"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-09 14:11:01"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-09 14:11:03"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-09 14:11:05"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-09 14:11:08"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-09 14:11:11"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-09 14:11:13"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-09 14:11:15"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-09 14:11:18"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-09 14:11:20"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-09 14:11:23"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-09 14:11:26"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-09 14:11:29"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-09 14:11:32"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-09 14:11:34"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-09 14:14:12"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-09 14:14:13"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-09 14:14:14"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-09 14:14:17"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-09 14:14:18"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-09 14:14:21"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-09 14:14:24"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-09 14:14:25"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-09 14:14:27"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-09 14:14:30"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-09 14:14:33"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-09 14:14:36"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-09 14:14:39"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-09 14:14:40"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-09 14:14:43"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-09 14:16:09"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-09 14:16:10"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-09 14:16:12"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-09 14:16:14"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-09 14:16:16"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-09 14:16:18"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-09 14:16:19"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-09 14:16:22"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-09 14:16:23"
+    },
+    {
+        "task": "analyse",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-09 14:16:24"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-09 14:16:26"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-09 14:16:28"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-09 14:16:31"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-09 14:16:34"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-09 14:16:37"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-09 14:16:51"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-09 14:16:53"
+    },
+    {
+        "task": "backup",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-09 14:16:55"
+    },
+    {
+        "task": "backup",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-09 14:16:56"
+    },
+    {
+        "task": "backup",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-09 14:16:59"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": false,
+        "timestamp": "2025-11-09 14:17:02"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-09 14:17:04"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": true,
+        "timestamp": "2025-11-09 14:17:06"
+    },
+    {
+        "task": "analyse",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-09 14:17:08"
+    },
+    {
+        "task": "analyse",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-09 14:17:11"
+    },
+    {
+        "task": "upload",
+        "duration": 3,
+        "success": true,
+        "timestamp": "2025-11-09 14:17:14"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-09 14:17:15"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": false,
+        "timestamp": "2025-11-09 14:17:16"
+    },
+    {
+        "task": "upload",
+        "duration": 1,
+        "success": true,
+        "timestamp": "2025-11-09 14:17:17"
+    },
+    {
+        "task": "upload",
+        "duration": 2,
+        "success": false,
+        "timestamp": "2025-11-09 14:17:19"
+    }
+]
