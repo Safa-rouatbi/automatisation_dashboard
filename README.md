@@ -41,10 +41,12 @@ Le dashboard Angular lit des logs JSON générés par Robot Framework et calcule
 cd frontend
 npm install
 ng serve
+
 ### 2. Installation du backend
-cd backend
-npm install
-npm start
+**cd backend
+**npm install
+**npm start
+
 
 
 
