@@ -43,9 +43,16 @@ npm install
 ng serve
 
 ### 2. Installation du backend
-**cd backend
-**npm install
-**npm start
+cd backend
+npm install
+npm start
+
+### 3. Lancement des taches simulées manuellement
+robot robot/runner.robot
+
+### 4. execution automatique 
+auto_runner.bat
+
 
 
 
