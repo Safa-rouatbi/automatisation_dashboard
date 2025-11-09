@@ -71,9 +71,11 @@ jobs:
         with:
           python-version: '3.11'
 
-      # 3️⃣ Installer Robot Framework
-      - name: Install Robot Framework
-        run: pip install robotframework
+      # 3️⃣ Installer Robot Framework et bibliothèques nécessaires
+      - name: Install Robot Framework and Libraries
+        run: |
+          pip install robotframework
+          pip install robotframework-jsonlibrary
 
       # 4️⃣ Exécuter les tests Robot
       - name: Run Robot tests
