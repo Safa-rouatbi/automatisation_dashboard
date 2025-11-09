@@ -16,24 +16,10 @@ Le dashboard Angular lit des logs JSON générés par Robot Framework et calcule
 
 ## Stack technique
 - **Frontend :** Angular  
-- **Backend :** Node.js / Express (optionnel pour servir les logs)  
+- **Backend :** Node.js / Express 
 - **Automation :** Robot Framework  
-- **CI :** GitLab CI  
+- **CI :** Github Actions  
 - **Données :** Fichiers JSON simulant les logs  
-
----
-
-## Structure du projet
-task-automation-dashboard/
-├── backend/
-│ ├── logs.json # Logs simulés
-│ └── server.js # Petite API Node.js (optionnel)
-├── frontend/ # Projet Angular
-├── robot/
-│ └── tasks.robot # Simulation de tâches
-├── run_tasks.bat # Exécution automatique des tâches
-└── .gitlab-ci.yml # Configuration CI
-
 
 ---
 
@@ -49,13 +35,17 @@ task-automation-dashboard/
 - Exécution continue via fichier `.bat`  
 
 ---
-
 ## Installation et utilisation
 
-cd ../frontend
+### 1. Installation du frontend
+cd frontend
 npm install
 ng serve
-# Le dashboard sera accessible sur http://localhost:4200
+### 2. Installation du backend
+cd backend
+npm install
+npm start
 
-cd ../robot
-robot tasks.robot
+
+
+
